@@ -1,0 +1,25 @@
+{
+  "name": "@ria-develop/dev-tools",
+  "version": "0.0.0",
+  "description": "A set of tools and settings for dev",
+  "keywords": [
+    "dev tools"
+  ],
+  "author": "Michał Grzegorzewski <spamshaker@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/dev-tools.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "module": "lib",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+  }
+}

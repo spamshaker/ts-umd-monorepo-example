@@ -1,0 +1,24 @@
+{
+  "name": "@ria-develop/shared-api-lib",
+  "private": true,
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Michał Grzegorzewski <spamshaker@gmail.com>",
+  "license": "ISC",
+  "main": "./lib/shared-api-lib.js",
+  "module": "./src/sharedApiLib.ts",
+  "types": "./types/sharedApiLib.d.ts",
+  "directories": {
+    "lib": "types",
+    "test": "__tests__"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "webpack --progress --colors --display-modules",
+    "start": "webpack-dev-server",
+    "types": "tsc --emitDeclarationOnly -d true --declarationDir ./types"
+  },
+  "devDependencies": {
+    "@ria-develop/dev-tools": "0.0.0"
+  }
+}

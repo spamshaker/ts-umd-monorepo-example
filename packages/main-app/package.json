@@ -1,0 +1,27 @@
+{
+  "name": "@ria-develop/main-app",
+  "version": "0.0.0",
+  "private": true,
+  "description": "\"A main application\"",
+  "keywords": [
+    "Main app"
+  ],
+  "author": "Michał Grzegorzewski <spamshaker@gmail.com>",
+  "license": "MIT",
+  "main": "dist/main-app.js",
+  "module": "./src/main-app.tsx",
+  "types": "./src/main-app.d.ts",
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "webpack --progress --colors --display-modules",
+    "start": "webpack-dev-server",
+    "types": "tsc --emitDeclarationOnly -d true --declarationDir ./types"
+  },
+  "dependencies": {
+    "@ria-develop/search-lookup": "0.0.0",
+    "@ria-develop/shared-api-lib": "0.0.0"
+  },
+  "devDependencies": {
+    "@ria-develop/dev-tools": "0.0.0"
+  }
+}
